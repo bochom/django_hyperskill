@@ -1,0 +1,5 @@
+<form action="/vacancy/new" method="post" >
+    {% csrf_token %}
+    {{form.as_table}}
+    <div><button>Create</button></div>
+</form>
